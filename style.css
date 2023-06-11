@@ -1,0 +1,239 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#home p{
+  font-size: 20px;
+}
+
+.searchbar{
+  font-size: 23px;
+  border-radius: 5px;
+  border-style: none;
+  text-indent: 2px;
+  padding-left: 13px;
+  margin-left: 320px;
+  background-color: #ebdcbe;
+  box-shadow: 3px 2px rgb(155, 144, 144);
+}
+.fa-search{
+  padding:4px 6px;
+ 
+  background-color: #abab3d;
+  
+  box-shadow: 05px 03px rgb(61, 48, 19);
+  align-items: center;
+  
+  border-style: none;
+  
+}
+.fa-search:hover{
+  background-color: #c1c198;
+  border-radius: 4px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+   
+}
+#navbar::before {
+  content: "";
+  background-color: #523c09;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+li a {
+  text-decoration: none;
+}
+
+#logo-1 {
+  padding: 10px 9px;
+}
+#logo-1 img {
+  height: 90px;
+
+  border-radius: 200px;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+#navbar ul li a {
+  padding: 4px 20px;
+  color: rgb(24, 13, 3);
+  border-radius: 10px;
+}
+#navbar ul li a:hover {
+  padding: 4px 20px;
+  color: rgba(230, 215, 133, 0.883);
+  background-color: rgb(66, 62, 8);
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 30px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+/* #home::before {
+  content: "";
+
+  background-image: url("./images/banner.jpg");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+} */
+.firstheading {
+  font-size: 40px;
+  font-family: "Irish Grover", cursive;
+}
+
+p {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Irish Grover", cursive;
+}
+.btn-2 {
+  margin: 20px;
+  background-color: rgb(250, 249, 221);
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: "Irish Grover", cursive;
+  box-shadow: 12px 08px rgb(61, 48, 19);
+  border-radius: 9px;
+}
+
+.btn-2:hover {
+  color: rgb(85, 47, 9);
+  background-color: rgb(218, 218, 80);
+  border-radius: 18px;
+}
+.card-section {
+  display: flex;
+  display: inline-block;
+  padding: 0px 0px 2px 7px;
+  padding-left: 50px;
+}
+.card-1 img {
+  height: 233px;
+}
+
+.card-1 {
+  box-shadow: 0 43px 18px 0 rgba(194, 186, 186, 0.438);
+
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-1:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 48px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 20px 16px;
+}
+
+.trianer-heading {
+  padding: 30px 23px;
+  text-align: center;
+  font-size: 30px;
+}
+.flexcontainer {
+  display: flex;
+  padding: 3px 5px;
+  margin: 80px auto;
+}
+h3 {
+  font-size: 23px;
+  text-align: center;
+  padding: 23px;
+}
+.imgtrainer {
+  height: 290px;
+  margin-left: 78px;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 28px 23px -10px;
+}
+#t-2 {
+  width: 253px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+.title .line {
+  width: 120px;
+  height: 6px;
+  background: #d1c0a4;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.background-img {
+  opacity: 0.4;
+  padding-top: 27px;
+}
+.gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.gallery-section img {
+  height: 316px;
+  width: 27.3%;
+
+  
+  
+  border-radius: 10px;
+  margin: 20px 4px;
+  margin-left: 23px;
+}
+.gym-gallery {
+  font-size: 35px;
+  padding: 23px;
+  text-align: center;
+}
+.back-section h1{
+  text-align: center;
+}
+
+
+#bmi-img{
+  
+padding-left: 78px;
+padding-bottom: 30px;
+border-radius: 13px;
+
+}
+
+.physicalhead{
+  font-size: 30px;
+}
+.fit-img{
+  opacity: 10;
+}
+.learn{
+  color: #523c09;
+}
+
+.contact{
+  padding-top: 10px;
+}
